@@ -105,3 +105,23 @@ img {
         max-width: 100%;
     }
 }
+
+@media (min-width: 900px) {
+    .header-nav{
+        justify-content: space-between;
+        padding: 1rem 0;
+        margin: 1rem auto 2rem auto;
+        line-height: 1rem;
+    }
+    .nav-item {
+        white-space: nowrap;
+    
+    }
+
+    .nav-menu {
+        width: auto;
+    }
+    .logo {
+        margin: 0 0 0.3rem;
+    }
+}
