@@ -96,8 +96,23 @@ img {
 .gallery-auto-fit {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: 300px;
+    grid-gap: 0.5rem;
+}
+.gallery-items {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
 }
 
+.gallery-img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery-img:hover {
+    transform: scale(1.5);
+}
 /* Media Queries - Responsive Layout */
 
 @media screen and (max-width: 1200px) {
