@@ -88,6 +88,16 @@ img {
     background: lightblue;
 }
 
+/* Begin Grid Gallery Styles */
+.gallery-page {
+    padding: 0 1rem 10rem 1rem;
+
+}
+.gallery-auto-fit {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
 /* Media Queries - Responsive Layout */
 
 @media screen and (max-width: 1200px) {
@@ -96,8 +106,6 @@ img {
         max-width: 50%;
     }
 }
-
-
 
 @media screen and (max-width: 600px) {
     .column{
